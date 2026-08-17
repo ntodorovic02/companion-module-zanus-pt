@@ -1,0 +1,26 @@
+{
+	"id": "zanus-pt",
+	"name": "zanus-pt",
+	"shortname": "zanus-pt",
+	"description": "Companion module for Zanus Production Robotics pan-tilt heads using the XC Protocol",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/ntodorovic02/companion-module-zanus-pt.git",
+	"bugs": "https://github.com/ntodorovic02/companion-module-zanus-pt/issues",
+	"maintainers": [
+		{
+			"name": "Nikola Todorovic",
+			"email": "ntodorovic@zanustechnology.com"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../src/index.js"
+	},
+	"manufacturer": "Zanus",
+	"products": ["Pauli", "Pauli B", "Paulinho", "Paulinho B", "Paulinho C"],
+	"keywords": ["pan-tilt", "robotic head", "zanus"]
+}

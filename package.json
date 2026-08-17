@@ -1,0 +1,23 @@
+{
+	"name": "zanus-pt",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format": "prettier --write .",
+		"format:check": "prettier --check ."
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ntodorovic02/companion-module-zanus-pt.git"
+	},
+	"dependencies": {
+		"@companion-module/base": "~1.11.0",
+		"axios": "^1.18.0"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^2.6.1",
+		"prettier": "^3.9.6"
+	}
+}
